@@ -1,3 +1,5 @@
+@import url("https://cdn.bootcss.com/font-awesome/5.9.0/css/all.min.css");
+
 
 /*
 	Strata by HTML5 UP
@@ -103,7 +105,7 @@ input, select, textarea {
 		line-height: 1.75em;
 	}
 
-	a {
+	/*a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -117,7 +119,7 @@ input, select, textarea {
 			border-bottom-color: transparent;
 			color: #49bf9d !important;
 			text-decoration: none;
-		}
+		}*/
 
 	strong, b {
 		color: #787878;
@@ -1838,9 +1840,9 @@ input, select, textarea {
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		select:focus,
-		textarea:focus {
+		/*textarea:focus {
 			border-color: #49bf9d;
-		}
+		}*/
 
 	select {
 		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23dfdfdf' /%3E%3C/svg%3E");
@@ -1943,9 +1945,9 @@ input, select, textarea {
 		}
 
 		input[type="checkbox"]:focus + label:before,
-		input[type="radio"]:focus + label:before {
+		/*input[type="radio"]:focus + label:before {
 			border-color: #49bf9d;
-		}
+		}*/
 
 	input[type="checkbox"] + label:before {
 		border-radius: 0.35em;
@@ -2458,7 +2460,7 @@ input, select, textarea {
 		white-space: nowrap;
 	}
 
-		input[type="submit"]:hover,
+		/*input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
@@ -2473,7 +2475,7 @@ input, select, textarea {
 			background-color: rgba(73, 191, 157, 0.1);
 			border-color: #49bf9d;
 			color: #49bf9d !important;
-		}
+		}*/
 
 		input[type="submit"].icon,
 		input[type="reset"].icon,
@@ -2514,11 +2516,11 @@ input, select, textarea {
 		input[type="submit"].primary,
 		input[type="reset"].primary,
 		input[type="button"].primary,
-		.button.primary {
+		/*.button.primary {
 			background-color: #49bf9d;
 			border-color: #49bf9d;
 			color: #ffffff !important;
-		}
+		}*/
 
 			input[type="submit"].primary:hover,
 			input[type="reset"].primary:hover,
@@ -2680,7 +2682,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		//background: #ebedf1;
+		
 		margin-left: 35%;
 		max-width: 54em;
 		padding: 2em 4em 4em 4em;
