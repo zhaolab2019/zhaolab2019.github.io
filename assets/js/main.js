@@ -113,6 +113,11 @@
 					// windowMargin: (breakpoints.active('<=small') ? 0 : 50)
 				});
 
+				$('#three').poptrox({
+					caption: function($a) { return $a.children('h3').text(); },
+				});
+
+
 			});
 
 })(jQuery);
